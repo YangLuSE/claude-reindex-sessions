@@ -1,0 +1,9 @@
+{
+  "name": "reindex-claude-sessions",
+  "description": "Two utilities for local Claude Code conversation data: rebuild Claude Desktop's session/history index after a system reinstall, and export any conversation to plain readable Markdown for backup/sharing. macOS + Claude Desktop only.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Yang Lu",
+    "email": "luyang.se@icloud.com"
+  }
+}

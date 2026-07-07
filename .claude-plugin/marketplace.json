@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-reindex-sessions",
+  "description": "Small personal marketplace of Claude Code utility plugins.",
+  "owner": {
+    "name": "Yang Lu",
+    "email": "luyang.se@icloud.com"
+  },
+  "plugins": [
+    {
+      "name": "reindex-claude-sessions",
+      "description": "Two utilities for local Claude Code conversation data: rebuild Claude Desktop's session/history index after a system reinstall, and export any conversation to plain readable Markdown for backup/sharing. macOS + Claude Desktop only.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Yang Lu",
+        "email": "luyang.se@icloud.com"
+      },
+      "source": "./plugins/reindex-claude-sessions",
+      "category": "utility",
+      "strict": false
+    }
+  ]
+}
