@@ -16,7 +16,7 @@ Background: Claude Code conversations are stored in two places:
 
 This script scans (1), finds every session that has no corresponding entry
 in (2), and synthesizes a minimal index record for it (cwd, first/last
-timestamp, a title guessed from the first prompt). It never touches or
+timestamp, a title derived from the first prompt). It never touches or
 deletes existing index entries — it's safe to re-run any time.
 
 After running, fully quit Claude Desktop (Cmd+Q) and reopen it for the
