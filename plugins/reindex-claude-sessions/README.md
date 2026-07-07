@@ -77,7 +77,7 @@ review before sharing outside your team.
   (re)builds the index for transcripts that already exist locally. If a
   project's transcript itself is missing, restore it first (e.g. from
   Time Machine or another backup) into `~/.claude/projects/`.
-- Reverse-engineered from the on-disk format of Claude Desktop 2.1.197.
+- Based on analysis of the on-disk format of Claude Desktop 2.1.197.
   This is undocumented internal app state, not a public API — a future
   Desktop release could change the format. If the script stops working
   after an app update, please open an issue.
